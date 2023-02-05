@@ -10,7 +10,7 @@ FILE_NAME = 'data/apache_logs.txt'
 @query_blueprint.route('/perform_query', methods=['POST'])
 def perform_query():
     """
-    Вьшка получает обрабатывает POST запрос, в котором передаются словарь парных параметров:
+    Вьюшка получает обрабатывает POST запрос, в котором передаются словарь парных параметров:
     {cmd1: str,
     value1: str,
     cmd2: str,
